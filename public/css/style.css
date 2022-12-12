@@ -1,0 +1,28 @@
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  height: 100% !important;
+}
+
+.col-4 {
+  padding: 1rem;
+}
+
+@media (max-width: 600px) {
+  .col-4 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1000px) {
+  .col-4 {
+    width: 50%;
+  }
+  
+}
