@@ -22,8 +22,8 @@ psql -U postgres -d squiz -f data/create_tables.sql
 - Voir les identifiants admin en dessous
 
 ### Login en Admin
-- Adresse mail : michel@gmail.com
-- Mot de passe : michelmichel
+- Adresse mail : admin@gmail.com 
+- Mot de passe : adminadmin
 
 ### Features à venir :
 - Créatiion du formulaire d'envoi de réponse

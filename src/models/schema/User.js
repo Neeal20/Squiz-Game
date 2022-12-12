@@ -26,7 +26,7 @@ User.init({
     // On autorise seulement 2 valeurs possible : "member" et "admin"
     type: DataTypes.ENUM(["member", "admin"]),
     allowNull: false,
-    defaultValue: "admin"
+    defaultValue: "member"
   }
 }, {
   sequelize,
